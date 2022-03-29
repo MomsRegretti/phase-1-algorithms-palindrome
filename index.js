@@ -1,7 +1,12 @@
 function isPalindrome(word) {
-  // Write your algorithm here
-}
-
+  if(word[0] === word[word.length - 1]) {
+    return true
+  }
+  else
+  return false
+};
+let abba = 'abba'
+console.log(abba[abba.length]);
 /* 
   Add your pseudocode here
 */
